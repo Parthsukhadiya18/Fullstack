@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1{
+          display: block;
+          display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="alert('hi')">Click me</button>
+    <button onclick="this.innerHTML='hi'">Html</button>
+    <button onclick="document.getElementById('p1').innerHTML='Hello Parth'">Parth</button>
+    <p id="p1"></p>
+    <button onclick="document.getElementById('p2').innerHTML='Hello Parth Hello ParthHello ParthHello ParthHello ParthHello Parth'">Aarth</button>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, laborum.</p>
+
+
+    <button onclick="document.getElementById('off').src='img/on.png'">On</button>
+    <img src="img/off.jpeg" id="off" alt="">
+    <button onclick="document.getElementById('off').src='img/off.jpeg'">Off</button>
+
+
+    <p 
+    id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni?</p>
+
+    <button onclick="document.getElementById('p3').style='color:red;'">Red</button>
+    <p 
+    id="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni?</p>
+
+    <button onclick="document.getElementById('p4').style='display: block;'">block</button>
+    <button onclick="document.getElementById('p4').style='display: none;'">none</button>
+
+
+
+</body>
+</html>
