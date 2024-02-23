@@ -1,0 +1,41 @@
+p{
+    height: 10px;
+    border: 1px dotted;
+    /* center  end/right left/start justify*/
+    text-align: start;
+    /* line-through overline underline*/
+    text-decoration: underline;
+    /* capitalize lowercase uppercase */
+    text-transform: none;
+    /* clip ellipsis */
+    text-overflow: clip;
+    text-shadow: 10px  10px 1px rgb(36, 35, 35);
+    text-wrap: pretty;
+  text-decoration-color: red;
+  text-size-adjust: inherit;
+  text-decoration-skip: inherit;
+  text-align-last: justify;
+  text-decoration-style: dashed;
+  text-combine-upright: inherit;
+  text-justify: auto;
+ /* font  */
+
+  /* large larger medium  small smaller 10px 1% 10cap 2ch 1in*/
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  /* 100-900   bold bolder lighter*/
+  font-weight:normal;
+  /* oblique; */
+  /* italic  */
+  font-style: normal;
+  font-display: initial;
+  /* small-caps  */
+  font-variant: normal;
+  font-feature-settings: "aalt";
+  font-stretch:expanded;
+  font-variant-ligatures: common-ligatures;
+  word-spacing: 10px;
+  line-height: 50px;
+letter-spacing: 10px;
+
+}

@@ -1,0 +1,18 @@
+div{
+    background-image: url('https://images.pexels.com/photos/19985008/pexels-photo-19985008/free-photo-of-white-car-on-desert.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    /* background-color: red; */
+    /* no-repeat repeat repeat-y repeat-x*/
+    background-repeat: no-repeat;
+    /* left  right top*/
+    background-position: center center;
+    /* auto  contain*/
+    background-size: cover;
+    /* background-clip: border-box; */
+    height: 300px;
+    width: 100%;
+
+}
+p{
+    margin: 10px 10px 10px 10px ;
+    padding: 10px 10px 10px 10px ;
+}

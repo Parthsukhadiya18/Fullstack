@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+/* id seletor  */
+#h1{
+    color:rgba(128, 75, 0, 0.788);
+}
+/* class . */
+.h1{
+    border: 1px solid rgb(211, 20, 20);
+}
+p,pre,h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* * universal seletor  */
+*{
+    font-size: large;
+}

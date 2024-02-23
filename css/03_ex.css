@@ -1,0 +1,70 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}header{
+    background-color: aqua;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 50%;
+}
+.home{
+    width: 50%;
+    text-align: end;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+
+}
+li{
+    list-style: none;
+    padding: 5px 0px 0px 0px;
+}
+a{
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 11px;
+    
+   
+}
+/* section1 home page  */
+  .section1 .img img {
+    height: 200px;
+    width: 100%;
+}
+
+/* footer  */
+footer .footer{
+background-color: black;
+color: antiquewhite;
+height: 30px;
+text-align: center;
+}
+.footer p{
+font-size: 13px;
+padding: 5px 0px 0px 0px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* ABout page  */
+.about .section2 {
+    background-image:url("img/pexels-nelson-sousa-20094356.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    /* width: 100%; */
+    }
+.about .section2 h2{
+    padding: 81px 10px 10px 10px;
+    text-align: center;
+}
+
