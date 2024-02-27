@@ -1,0 +1,29 @@
+.static{
+    position: static;
+    border: 1px solid;
+}
+.fixed{
+    /* position: fixed; */
+    border: 1px solid red;
+    margin-top: 100px;
+}
+.reletiv{
+    position: relative;
+    border: 1px solid green;
+    /* width: 100%; */
+    height: 100px;
+
+}
+.absolute{
+    position: absolute;
+    /* width: 100px; */
+    border: 1px solid;
+    margin-left: 100px;
+}
+.sticky{
+    position: sticky;
+    border: 1px solid green;
+    top: 0px;
+    background-color: blue;
+
+}
