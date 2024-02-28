@@ -1,0 +1,42 @@
+a:link{
+    color: red ;
+}
+a:active{
+    color: green;
+}
+ 
+a:visited{
+    color: black;
+}
+
+a:hover{
+    text-decoration: line-through;
+}
+
+button{
+    background-color: cadetblue;
+    border: 1px dotted;
+    font-size: 10px;
+}
+button:hover{
+    background-color: pink;
+    border: 1px groove;
+    /* border-style: groove; */
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: green;
+}
+p::before{
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzfUED0Y_FZz7t6PqZNjiVFarA3HdLBXDuGuA0dogXJzoHRNmtMAnmIxKnej-Q0QCH0Y&usqp=CAU');
+}
+
+p::after{
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOzfUED0Y_FZz7t6PqZNjiVFarA3HdLBXDuGuA0dogXJzoHRNmtMAnmIxKnej-Q0QCH0Y&usqp=CAU');
+}    
