@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .liner{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            transition: 2s all linear;
+        }
+        .liner:hover{
+            width: 200px;
+        }
+        .ease{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition: 2s all ease;
+        }
+        .ease:hover{
+            width: 200px;
+        }
+        .ease-in{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            transition: 2s all ease;
+        }
+        .ease-in:hover{
+            width: 200px;
+        }
+        .ease-out{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            transition: 2s all ease-out;
+
+        }
+        .ease-out:hover{
+            width: 200px;
+        }
+        .ease-in-out{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            transition: 2s all ease-in-out;
+        }
+        .ease-in-out:hover{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="liner">liner</div>
+    <br>
+    <div class="ease">ease</div><br>
+    <div class="ease-in">ease-in</div><br>
+    <div class="ease-out">ease-out</div><br>
+    <div class="ease-in-out">ease-in-out</div><br>
+
+</body>
+</html>
