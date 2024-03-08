@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            background-color: green;
+            width: 50px;
+            height:50px;
+
+          margin: 50px auto;
+          border-radius: 50%;
+            /* transition: 2s all ease; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name:example ;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count:infinite;
+            /* alternate alternate-reverse*/
+            animation-direction:alternate;
+            /* forwards backwards*/
+            /* animation-fill-mode:backwards ; */
+            
+
+        }
+        @keyframes example {
+            /* from{
+               
+            }
+            to{
+        background-color: red;
+        width: 100px;
+            height:100px;
+
+            } */
+            0%{
+                width: 50px;
+               height:50px;
+               /* background-color: green; */
+
+            }
+            25%{
+                width: 100px;
+               height:100px;
+               /* background-color: rgb(52, 155, 52); */
+            }
+            50%{
+                width: 150px;
+               height:150px;
+               /* background-color: rgb(52, 155, 52); */
+            }
+            75%{
+                width: 200px;
+               height:200px;
+               /* background-color: rgb(64, 98, 64); */
+
+            }
+            100%{
+                width: 250px;
+               height:250px;
+               /* background-color: rgb(31, 35, 31);/ */
+
+            }
+ 
+        }
+
+
+        .rel{
+            position: relative;
+            /* background-color: green; */
+            border-radius: 50%;
+            width: 200px;
+            height:200px;
+           border: 1px dashed red;
+            margin: 50px auto;
+            animation: parth 2s linear 0s infinite  ;
+            
+            
+
+        }
+        .ab1{
+            position: absolute;
+            border-radius: 50%;
+            top: 50px;
+            left: 50px;
+            /* background-color: red; */
+            border: 1px dotted red;
+            width: 100px;
+            height:100px;
+            animation: parth 4s ease 0s infinite ;
+
+        }
+
+        .ab2{
+            position: absolute;
+            border-radius: 50%;
+            top: 75px;
+            left: 75px;
+            /* background-color: red; */
+            border: 1px dashed green;
+            width: 50px;
+            height:50px;
+            animation: parth 2s ease 0s infinite alternate ;
+
+        }
+    
+
+        @keyframes parth {
+            /* from{
+               
+            }
+            to{
+        background-color: red;
+        width: 100px;
+            height:100px;
+
+            } */
+            0%{
+                
+                transform: rotate(0deg);
+
+            }
+        
+            100%{
+              
+                transform: rotate(350deg);
+            }
+ 
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div></div>
+
+
+    <!-- <div class="rel"> -->
+        <!-- <div class="ab1"> -->
+           <img src="img/1.webp" alt="" class="rel">
+        <!-- </div> -->
+        <!-- <div class="ab2">
+
+        </div> -->
+    <!-- </div> -->
+
+</body>
+</html>
